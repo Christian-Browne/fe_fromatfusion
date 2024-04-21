@@ -79,7 +79,8 @@ function App() {
   };
 
   return (
-    <>
+    <div className="app">
+      <img src="/fflogo.png" style={{ width: '200px' }} />
       <Typography variant="h1" component="h2" fontWeight="bold" sx={{ mb: 4 }}>
         FormatFusion
       </Typography>
@@ -94,8 +95,8 @@ function App() {
         <>
           <Stack
             direction="row"
-            alignItems="center"
             justifyContent="center"
+            alignItems="center"
             gap={2}
           >
             <div>
@@ -213,7 +214,7 @@ function App() {
           </>
         </>
       )}
-    </>
+    </div>
   );
 }
 
