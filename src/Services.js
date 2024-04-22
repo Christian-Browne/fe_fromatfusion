@@ -8,7 +8,7 @@ export default function useFileUpload() {
   return useMutation({
     mutationFn: async (formData) => {
       const response = await axios.post(
-        'https://beformatfusion-production.up.railway.app/upload',
+        'https://formatfusion-christianbrowne.koyeb.app/upload',
         formData,
         {
           headers: {
