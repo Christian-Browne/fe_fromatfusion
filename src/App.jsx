@@ -229,7 +229,7 @@ function FileDisplay({ file, interval }) {
         const newProgress = Math.min(oldProgress + 10, 100);
         return newProgress;
       });
-    }, interval / 100); // Adjust the progress increment to be more frequent
+    }, interval / 100); // Adjust the progress increment to be more frequentss
 
     return () => {
       clearInterval(timer);
