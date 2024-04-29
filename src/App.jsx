@@ -88,7 +88,7 @@ function App() {
         Create Custom Video
       </Typography>
       <Typography variant="body1">
-        Upload your clips and create a custom video.
+        Upload 10-30 second clip and create a custom video.
       </Typography>
       {isUploading && <LinearProgress sx={{ height: 20 }} />}
       {!isUploading && (
@@ -115,7 +115,7 @@ function App() {
                   component="span"
                   sx={{ mt: 2 }}
                 >
-                  Upload Clips
+                  Upload Video
                 </Button>
               </label>
             </div>
